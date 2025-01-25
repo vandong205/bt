@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image/laptop.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: fantasy;
+}
+header li{
+    list-style: none;
+    display:  flex;
+    flex-wrap: wrap;
+}
+header nav{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50px;
+}
+header nav a:first-child{
+    margin-left: 10px;
+}
+header .menu{
+    margin-right: 20px;
+}
+header .menu ul{
+    display: flex;
+    gap: 30px;
+}
+header  a:hover{
+    color: rgb(8, 8, 8);
+}
+main .slogan{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 12px;
+    margin: 150px 0 0 100px;
+    background-color: #8ab6fc;
+    padding: 20px;
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+}
+.slogan button{
+    width: 60%;
+    border: none;
+    height: 40px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+.slogan button:hover{
+    transform: translateY(-5px);
+}
